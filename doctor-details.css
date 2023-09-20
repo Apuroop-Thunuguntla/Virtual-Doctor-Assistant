@@ -1,0 +1,81 @@
+#indexpage{
+    background-image:url(https://t3.ftcdn.net/jpg/02/16/47/22/360_F_216472247_cT66WDoS0fp1s3wC7eaykMJNDGVbOBPq.jpg);
+    background-position:center;
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: #3a3a3a;
+    background-size: 100%;
+}
+.head{
+    color:darkgoldenrod;
+    font-size:25px;
+    font-weight:bold;
+    padding: 40px;
+   text-align:left;
+   margin-right: auto;
+}
+.card1{
+    color:black;
+ font-size:18px;
+ font-family: "Gill Sans", sans-serif;
+ font-weight:bold;
+ padding: 40px;
+margin-right: auto;
+}
+#card1{
+    margin: 1em 0 0.5em 0;
+    color: #343434;
+    font-weight: normal;
+    font-family: 'Ultra', sans-serif;   
+    font-size: 45px;
+    line-height: 15px;
+    text-transform: uppercase;
+    text-shadow: 0 2px white, 0 3px #777;
+}
+#card2{
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 2.5em;
+    letter-spacing: -2px;
+    border-bottom: 2px solid black;
+    text-transform: uppercase;
+   }
+#darg{
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: #94d8e9;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+  font-size: 100%;
+  height: 44px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s,box-shadow .08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+
+#darg:disabled {
+  cursor: default;
+}
+
+#darg:focus {
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+}
